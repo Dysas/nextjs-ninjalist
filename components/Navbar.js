@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -6,7 +7,7 @@ function Navbar() {
     <div>
       <nav>
         <div className="logo">
-          <h1>Ninja List </h1>
+          <Image src="/logo.png" alt="logo" width={128} height={77} />
         </div>
         <Link href="/">
           <a>Home</a>
